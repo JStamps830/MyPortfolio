@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <style>
+
+        <!-- Shape Container Holds The DIY profile picture placeholder and border-->
+
+        .shape-contaner
+        {
+            position: relative;
+            display: inline-block;
+        }
+        .overlapping-profile
+        {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            background-color: rgb(174, 174, 174); 
+            border-radius: 50%; 
+            top: 80px;
+            left: 1150px;
+            z-index: 10;  
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- Shape Container: Holds The DIY profile picture placeholder and border-->
+    <div class="shape-contaner">
+        <div style="
+            display: inline-block; 
+            width: 1240px; 
+            height: 1px; 
+            background-color:rgb(212, 211, 211); 
+            border-radius: 50px;
+            border:100px solid rgb(212, 211, 211);">
+            </div>
+        <div class="overlapping-profile"></div>
+    </div>
 </body>
 </html>
