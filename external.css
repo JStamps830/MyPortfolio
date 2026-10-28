@@ -1,4 +1,20 @@
 #drawing {
   width: 400px;
   height: 500px;
+  border-radius: 50px;
+}
+
+#drawing-text {
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+}
+
+#important-text {
+  font-family: Arial, sans-serif;
+  font-size: 46px;
+  color: #210841;
+  font-weight: bold;
+  font-style: italic;
 }
