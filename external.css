@@ -28,3 +28,13 @@
   font-style: italic;
 
 }
+
+#footer-link {
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  color: #511a99;
+  font-weight: bold;
+  background-color: rgb(195, 151, 234);
+  font-style: italic;
+
+}
